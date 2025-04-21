@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page 3</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background-color: indianred; /* pastel mavi */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      font-size: 36px;
+      color: #FFFFFFBB;
+    }
+    .small-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #00000022; /* Green */
+      color: #FFFFFFBB;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+  </style>
+    <script>
+      function testFuncInPage3() {
+        console.log("testFuncInPage3 called.")
+      }
+    </script>
+</head>
+<body>
+  <div>page3.htm</div>
+  <div class="small-btn" onclick="javascript:window.top.runAction('showpage7');">Open SecondView</div>
+</body>
+</html>
