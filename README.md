@@ -1,6 +1,8 @@
 # WEB2APP SPA - 
 This template is primarily designed to easily convert HTML pages and URLs into a Capacitor/Cordova based iOS/Android app  that can be used as Single-page application (SPA).
 
+You can hire me to develop your mobile app with this template.
+
 ### LIVE PREVIEW:
 
 https://bug7a.github.io/web2app/
@@ -9,43 +11,37 @@ https://bug7a.github.io/web2app/
 
 ![alt tag](https://bug7a.github.io/web2app/screen1.png)
 
-![alt tag](https://bug7a.github.io/web2app/screen2.png)
-
-![alt tag](https://bug7a.github.io/web2app/screen3.png)
-
-![alt tag](https://bug7a.github.io/web2app/screen4.png)
-
 ### HOW TO EDIT THIS TEMPLATE:
 
-- Replace the html files and edit settings.js file with an IDE or text editor.
+    - Replace the html files and edit settings.js file with an IDE or text editor.
 
 
 ### HOW TO EDIT BOTTOM AND SIDE BARS:
 
-- To edit bottom bar, use settings.getBottomBarItemDataList JSON in settings.js file.
-- To edit top bar, use settings.getTopBarItemDataList JSON in settings.js file.
-NOTE: If you dont want to use advanced pages, switch them to page2 -> page9, page4 -> page10 in settings.getBottomBarItemDataList JSON;
+    - To edit bottom bar, use settings.getBottomBarItemDataList JSON in settings.js file.
+    - To edit top bar, use settings.getTopBarItemDataList JSON in settings.js file.
+    NOTE: If you dont want to use advanced pages, switch them to page2 -> page9, page4 -> page10 in settings.getBottomBarItemDataList JSON;
 
-- To find more settings, check settings.js file.
+    - To find more settings, check settings.js file.
 
 
 ### HOW TO EDIT PAGES:
 
-- To edit page1, check page1.htm and js/page/page1.js files.
-- To open page1, use settings.openPageById function in settings.js.
-- Use pageX.js files to edit page-related settings. (page1.js, page3.js, page5.js vb.)
-- To work with direct URL addresses, see page6 (js/page/page6.js) example.
+    - To edit page1, check page1.htm and js/page/page1.js files.
+    - To open page1, use settings.openPageById function in settings.js.
+    - Use pageX.js files to edit page-related settings. (page1.js, page3.js, page5.js vb.)
+    - To work with direct URL addresses, see page6 (js/page/page6.js) example.
 
-NOTE: Use 600px (settings.USED_WIDTH) width or 100% for your pages.
+    NOTE: Use 600px (settings.USED_WIDTH) width or 100% for your pages.
 
-- If you want to open a page from other page, use window.runAction in settings.js (Check examples: page1, page3, page5)
+    - If you want to open a page from other page, use window.runAction in settings.js (Check examples: page1, page3, page5)
 
 
 ### ADVANCED EDITING:
 
-- Expert programmers can do more customization (Check examples: page2, page4).
-- For more documentation, check the following link:
-https://bug7a.github.io/basic.js-handbook/
+    - Expert programmers can do more customization (Check examples: page2, page4).
+    - For more documentation, check the following link:
+    https://bug7a.github.io/basic.js-handbook/
 
 
 ### HOW TO MAKE MOBILE APP (PLATFORMS; ANDROID, iOS)
