@@ -9,7 +9,7 @@ https://bug7a.github.io/web2app/
 
 ### SCREENSHOTS:
 
-![alt tag](https://bug7a.github.io/web2app/screen1.png)
+![alt tag](https://bug7a.github.io/web2app/screen2.png)
 
 ### HOW TO EDIT THIS TEMPLATE:
 
